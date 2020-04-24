@@ -1,22 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 html,body {
   heigh: 100%;
   width: 100%;
-  font-family:
-  colo: #222;
+  color: #222;
 
     padding-top: 70px;
 
 }
 .navbar{
   padding: 0.8rem;
-  background-color: red;
+
   /*max-height: 100px;*/
 }
 .bg-nav{
-  background-color: #FF7F50;
+  background-color: /*#E35C56*/ #CAED58;
 }
 .navbar-nav li{
   padding-right: 30px;
+}
+.navbar-nav .nav-item:hover{
+  font-weight: bold;
 }
 .padding{
   padding-bottom: 2rem;
@@ -26,15 +29,16 @@ html,body {
 }
 .mockup{
   padding: 4rem;
+  font-weight: normal;
 
 }
 .btn-primary{
-  background-color: #b84600 ;
-  border: 1px solid #75330f;
+  background-color: #59424F; /*  lila buch #7D2286*/
+  border: 1px solid #3A2B40;
 }
 .btn-primary:hover{
-  background-color: #75330f ;
-  border: 1px solid #75330f;
+  background-color: #3A2B40 ;
+  border: 1px solid #3A2B40;
 }
 .welcome{
   width:75%;
@@ -44,16 +48,26 @@ html,body {
 .padtext{
   padding: 30px
 }
-.welcome hr{
+
+.under hr{
+  color: black;
+}
+/*  color: black;
   border-top: 2px;
   width: 95%;
   margin-top: .3rem;
   margin-bottom: 1rem;
-}
+  margin-left: 0;
+ margin-right: 0;*/
 .page-footer{
-  background-color: grey;
+  background-color: #59424F;
   padding: .5rem;
 }
 .page-footer .foot-link{
   color: white;
+
+}
+.foot-link:hover{
+  text-decoration: none;
+  color: grey;
 }
